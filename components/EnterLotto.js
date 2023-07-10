@@ -99,7 +99,7 @@ export default function EnterLotto() {
     return (
         <div className="h-screen">
             <h1 className="py-4 px-4 font-bold text-white text-3xl text-center">Lotto</h1>
-            <div class="w-4/6 mx-auto flex justify-evenly items-center rounded">
+            <div className="w-4/6 mx-auto flex justify-evenly items-center rounded">
                 {lottoAddress ? (
                     <div className="w-4/5 flex-col items-center text-white p-4">
                         <div>Entrance Fee: {entranceFee}</div>
