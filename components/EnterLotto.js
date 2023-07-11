@@ -106,7 +106,7 @@ export default function EnterLotto() {
                         <div>Number of Players: {numberOfPlayers}</div>
                         <div>Recent Winner: {recentWinner}</div>
                         <button
-                            className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded ml-auto mt-3"
+                            className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded ml-auto mt-3"
                             onClick={async function () {
                                 await enterLotto({
                                     onSuccess: handleSuccess,
